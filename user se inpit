@@ -1,0 +1,4 @@
+dict={"shubham":"roshan"}
+#print(dict)
+user=input("enter the name")
+print(dict[user])

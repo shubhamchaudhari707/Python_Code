@@ -1,0 +1,19 @@
+print("enter the first number")
+num1=int(input())
+print("enter the second number")
+num2=int(input())
+
+if num1 >0and num2 >0:
+	print( "first qudrant")
+	
+elif num1 <0 and num2 >0:
+	print("second quadrant")
+
+elif num1 <0 and num2 <0:
+	print("third quadrant")
+	
+elif num1 >0 and num2 <0:
+	print("fourth quadrant")
+	
+else:
+	print ("origin")

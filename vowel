@@ -1,0 +1,12 @@
+print ("enter the value")
+num=(input())
+
+
+#(he method use nhi hote)
+#if  num == 'a' and num=='e' and =='i' and num=='o'and num=='u':
+	#print("vowel")
+	
+if num==("a,e,i,o,u"):
+	print("vowel")
+else:
+	print("constant")

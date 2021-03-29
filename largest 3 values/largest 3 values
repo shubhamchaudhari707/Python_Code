@@ -1,0 +1,16 @@
+print ("enter the firat value")
+num1=int(input())
+print("enter the second number")
+num2=int(input())
+print("enter the third number")
+num3=int(input())
+
+if num1>num2 and num1>num3:
+	print( "first value is largest")
+
+elif num2>num1 and num2>num3:
+	print("second value is largest")
+
+else:
+	print("third value is largest")
+

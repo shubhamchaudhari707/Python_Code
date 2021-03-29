@@ -1,0 +1,22 @@
+rollno=int(input("enter the roll no: "))
+name=input("enter the name ")
+phy=int(input("physics marks: "))
+che=int(input("chemistry marks: "))
+math=int(input("math marks:" ))
+
+total=phy+che+math
+print(total)
+
+per=total/3
+print(per)
+
+if per>=75:
+	print("first class with distintion")
+	
+elif per <=74 and per >=60:
+	print("first class")
+	
+elif per<=48 and per>=36:
+	print("pass")
+else:
+	print("fail")

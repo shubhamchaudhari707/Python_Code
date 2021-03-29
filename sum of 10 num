@@ -1,0 +1,15 @@
+n=int(input("enter the value:"))
+sum=0
+for i in range ( 1,n+1):
+	sum=sum+i
+	print("sum is ",sum)
+	
+"""	
+n=int(input("enter the value:"))
+sum=0
+i=1
+while 1<=n:
+	sum=sum+i
+	i=i+1
+	print("the sum is",sum)
+	"""
